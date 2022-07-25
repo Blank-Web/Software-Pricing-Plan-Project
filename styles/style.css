@@ -1,0 +1,265 @@
+html{
+font-size: 62.5%;
+}
+
+body{
+    font-size: 1.6rem;
+    background-color: #f0f0f0;
+    font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+    color: #333;
+    word-wrap:break-word;
+    margin: 50px;
+}
+
+.price{
+    color: #636363;
+}
+
+.top-tr{
+    font-size: 3rem;
+    padding:30px;
+}
+
+h3{
+    margin: 0px;
+}
+
+th[scope="col"]{
+    padding: 30px;
+    padding-inline: 0px;
+}
+
+
+table {
+    table-layout: fixed;
+    border-collapse: collapse;
+    background-color: #ffffff;
+    line-height: 1.428571429;
+    text-align: center;
+    vertical-align: middle;
+    box-shadow: 2px 2px 2px 2px rgba(29, 29, 29, 0.2);
+    word-wrap:break-word;
+    width: 100%;
+
+ 
+}
+
+tr:hover{
+    background-color: #f7f7f7;
+}
+
+.header:hover{
+    background-color: #ececec
+}
+
+.table-container{
+    position: relative;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 40px;
+    overflow-x: auto;
+    max-width: 1200px;
+    overflow: visible;
+
+}
+
+
+th, tr, td {
+    border: 1px solid #EFEFEF; 
+    height: 40px; 
+    position: relative;
+}
+
+
+.header {
+    background-color: #f0f0f0;
+    cursor: pointer;
+}
+
+.icon-check:after {
+    content: "✓";
+    color: #A7CA1A;
+    font-size: 2rem;
+}
+
+.icon-ex:after {
+    content: "🗴";
+    color: #f82452;
+    font-size: 2rem;
+}
+
+
+.hidden {
+    color: #777;
+    font-weight: normal;
+}
+
+
+#best-value {
+
+    position:absolute;
+    top:-10%;
+    width: 100%;
+    background-color: #A7CA1A;
+    padding: 0px;
+    margin: 0px;
+    color: white;
+    font-size: 1.8rem;
+}
+
+
+.chevron-icon{
+    position: relative;
+    left: -5px;
+    display: inline-block;
+    transform: rotate(180deg);
+  
+
+}
+
+.additional-info-icon{
+    position: relative;
+    left: 5px;
+    color: #A7CA1A;
+}
+
+th[scope="row"] {
+    text-align: left;
+    padding-left: 40px;
+}
+
+
+/* buttons' CSS below this comment */
+
+.footer-tr{
+    padding-top:30px;
+    padding-bottom:30px;
+}
+
+.btn-th{
+    padding:30px;
+}
+
+.btn{
+    border: none;
+    width: 100%;
+    max-width: 199px;
+    border-radius: 5px;
+    line-height: 1.428571429;
+    padding:10px;
+    cursor: pointer;
+    color: white;
+    font-size: 1.8rem;
+}
+
+.btn-basic{
+    background-color:#7D6E99;
+}
+.btn-business{
+    background-color:#A7CA1A;
+}
+.btn-pro{
+    background-color:#4C7DA5;
+}
+
+.btn-basic:hover{
+    background-color:#204d74;
+}
+.btn-business:hover{
+    background-color:#94b412;
+}
+.btn-pro:hover{
+    background-color:#3b678b;
+}
+
+/* CSS for responsiveness below this comment */
+@media screen and (max-width: 767px){
+    *{
+        padding: 10px;
+        word-break: break-word;
+        margin: 0px !important;
+    }
+
+    th:empty, td:empty {
+        display: none;
+    }
+
+    td, th {
+        display:block;
+        padding: 10px;
+
+    }
+
+    td{
+        text-align: left;
+    }
+
+
+
+    td[data-th]:before {
+        content: attr(data-th);
+        padding-inline: 15px;
+        width: 125px;
+        display: inline-block;
+    }
+
+    th[scope="col"], th[scope="row"]{
+        padding: 10px;
+        font-weight: bold;
+        color: black;
+    }
+
+    .header td[data-th]:before {
+        content: attr(data-th);
+        padding-inline: 0px;
+        width: 60px;
+        display: inline-block;
+    }
+    .header td:not(:first-child){
+        float: left;
+        width: 25%;
+        font-weight: bold;
+    }
+
+    .header td{
+        font-size: 1.2rem;
+        vertical-align: middle;
+    }
+
+    th[scope="col"]{
+        height:auto;
+    }
+
+    p{
+        margin: 0px;
+    }
+
+    #best-value {
+        position:relative;
+        display: inline-block;
+        border-radius: 5px;
+        margin: 0px;
+        top: 0%;
+        width: 100px;
+        font-size: 1.2rem;
+    }
+
+    .header:after{
+        content: "";
+        clear: both;
+        display: block;
+    }
+
+    .top-tr{
+    font-size: 1.6rem;
+    }
+
+    tfoot{
+        display: none;
+    }
+    .btn{
+        font-size: 1.4rem;
+        padding: 5px;
+    }
+
+}

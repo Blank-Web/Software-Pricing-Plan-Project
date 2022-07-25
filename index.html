@@ -1,0 +1,706 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Pricing</title>
+
+    <link rel="stylesheet" href="styles/style.css">
+    
+    <script src="scripts/script.js" defer></script>
+
+  </head>
+
+  <body>
+
+<div class="table-container">   
+<!-- Pricing Table Start --> 
+
+<title>Pricing Table</title>
+<table class="table-style">
+<thead>
+    <tr class="top-tr">
+        <th></th>
+
+        <th scope="col" id="basic">
+            <h3>Basic</h3>
+            <p class="price">$297<br>
+            <span style="font-size:1rem">billed yearly</span></p>
+            <button type="button" class="btn btn-basic">Buy Basic</button>
+        </th>
+
+        <th scope="col" id="business">
+            <p id="best-value">BEST VALUE<br></p>
+            <h3>Business</h3>
+            <p class="price">$697<br>
+            <span style="font-size:1rem">billed yearly</span></p>
+            <button type="button" class="btn btn-business">Buy Business</button>
+        </th>
+
+        <th scope="col" id="Pro">
+            <h3>Pro</h3>
+            <p class="price">$997<br>
+            <span style="font-size:1rem">billed yearly</span></p>
+            <button type="button" class="btn btn-pro">Buy Pro</button>
+        </th>
+    </tr>
+</thead>
+
+<tbody>
+    <!-- GENERAL FEATURES TABLE-->
+    <tr class="general-header header" id="general-header">
+        <th scope="row" id="general" data-th=" ">
+            <span class="chevron-icon" id="dropdown-icon-general">
+                <svg xmlns="http://www.w3.org/2000/svg" width="10" height="10" fill="currentColor" class="bi bi-chevron-down" viewBox="0 0 16 16">
+                    <path fill-rule="evenodd" d="M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708z"/>
+                </svg>
+            </span>
+    
+            GENERAL
+
+            <span class="additional-info-icon" data-toggle="tooltip" title="General features">
+                <svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" fill="currentColor" class="bi bi-question-circle" viewBox="0 0 16 16">
+                    <path d="M8 15A7 7 0 1 1 8 1a7 7 0 0 1 0 14zm0 1A8 8 0 1 0 8 0a8 8 0 0 0 0 16z"/>
+                    <path d="M5.255 5.786a.237.237 0 0 0 .241.247h.825c.138 0 .248-.113.266-.25.09-.656.54-1.134 1.342-1.134.686 0 1.314.343 1.314 1.168 0 .635-.374.927-.965 1.371-.673.489-1.206 1.06-1.168 1.987l.003.217a.25.25 0 0 0 .25.246h.811a.25.25 0 0 0 .25-.25v-.105c0-.718.273-.927 1.01-1.486.609-.463 1.244-.977 1.244-2.056 0-1.511-1.276-2.241-2.673-2.241-1.267 0-2.655.59-2.75 2.286zm1.557 5.763c0 .533.425.927 1.01.927.609 0 1.028-.394 1.028-.927 0-.552-.42-.94-1.029-.94-.584 0-1.009.388-1.009.94z"/>
+                </svg>
+            </span>
+        </th>
+        <td data-th="basic" headers="basic general">YES</td>
+        <td data-th="business" headers="business general">YES</td>
+        <td data-th="pro" headers="pro general">YES</td>
+    </tr>
+
+    <tr class="general-tr">
+        <th class="hidden" scope="row" data-th=" " id="powered-by">'Powered by' logo</th>
+        <td class="hidden" data-th="basic" headers="basic powered-by"><span class="icon-check"></span><br></td>
+        <td class="hidden" data-th="business" headers="business powered-by"><span class="icon-check"></span><br></td>
+        <td class="hidden" data-th="pro" headers="pro powered-by"><span class="icon-check"></span><br></td>
+    </tr>
+  
+    <tr class="general-tr">
+        <th class="hidden" scope="row" data-th=" " id="number-of-sites">Number of sites</th>
+        <td class="hidden" data-th="basic" headers="basic number-of-sites">UNLIMITED</td>
+        <td class="hidden" data-th="business" headers="business number-of-sites">UNLIMITED</td>
+        <td class="hidden" data-th="pro" headers="pro number-of-sites">UNLIMITED</td>
+    </tr>
+
+    <tr class="general-tr">
+        <th class="hidden" scope="row" data-th=" " id="external-integrations">External integrations</th>
+        <td class="hidden" data-th="basic" headers="basic external-integrations"><span class="icon-check"></span><br></td>
+        <td class="hidden" data-th="business" headers="business external-integrations"><span class="icon-check"></span><br></td>
+        <td class="hidden" data-th="pro" headers="pro external-integrations"><span class="icon-check"></span><br></td>
+    </tr>
+
+    <tr class="general-tr">
+        <th class="hidden" scope="row" data-th=" " id="media-manager">Media Manager</th>
+        <td class="hidden" data-th="basic" headers="basic media-manager"><span class="icon-check"></span><br></td>
+        <td class="hidden" data-th="business" headers="business media-manager"><span class="icon-check"></span><br></td>
+        <td class="hidden" data-th="pro" headers="pro media-manager"><span class="icon-check"></span><br></td></tr>
+
+
+    <tr class="general-tr">
+        <th class="hidden" scope="row" data-th=" " id="team-members">Team members</th>
+        <td class="hidden" data-th="basic" headers="basic team-members">0</td>
+        <td class="hidden" data-th="business" headers="business team-members">3</td>
+        <td class="hidden" data-th="pro" headers="pro team-members">10</td>
+    </tr>
+
+<!-- FUNNEL BUILDER TABLE-->
+
+    <tr class="funnel-builder-header header" id="funnel-builder-header">
+        <th scope="row" id="funnel-builder" data-th=" ">
+            <span class="chevron-icon chevron-icon-funnel-builder" id="dropdown-icon-funnel-builder">
+                <svg xmlns="http://www.w3.org/2000/svg" width="10" height="10" fill="currentColor" class="bi bi-chevron-down" viewBox="0 0 16 16">
+                    <path fill-rule="evenodd" d="M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708z"/>
+                </svg>
+            </span>
+    
+            FUNNEL BUILDER
+
+            <span class="additional-info-icon" data-toggle="tooltip" title="Funnel Builder features">
+                <svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" fill="currentColor" class="bi bi-question-circle" viewBox="0 0 16 16">
+                    <path d="M8 15A7 7 0 1 1 8 1a7 7 0 0 1 0 14zm0 1A8 8 0 1 0 8 0a8 8 0 0 0 0 16z"/>
+                    <path d="M5.255 5.786a.237.237 0 0 0 .241.247h.825c.138 0 .248-.113.266-.25.09-.656.54-1.134 1.342-1.134.686 0 1.314.343 1.314 1.168 0 .635-.374.927-.965 1.371-.673.489-1.206 1.06-1.168 1.987l.003.217a.25.25 0 0 0 .25.246h.811a.25.25 0 0 0 .25-.25v-.105c0-.718.273-.927 1.01-1.486.609-.463 1.244-.977 1.244-2.056 0-1.511-1.276-2.241-2.673-2.241-1.267 0-2.655.59-2.75 2.286zm1.557 5.763c0 .533.425.927 1.01.927.609 0 1.028-.394 1.028-.927 0-.552-.42-.94-1.029-.94-.584 0-1.009.388-1.009.94z"/>
+                </svg>
+            </span>
+        </th>
+        <td data-th="basic" headers="basic funnel-builder">YES</td>
+        <td data-th="business" headers="business funnel-builder">YES</td>
+        <td data-th="pro" headers="pro funnel-builder">YES</td>
+    </tr>  
+
+    <tr class="funnel-builder-tr">
+        <th class="hidden" scope="row" data-th=" " id="number-of-funnels">Number of funnels</th>
+        <td class="hidden" data-th="basic" headers="basic number-of-funnels">10</td>
+        <td class="hidden" data-th="business" headers="business number-of-funnels">100</td>
+        <td class="hidden" data-th="pro" headers="pro number-of-funnels">500</td>
+    </tr>
+
+    <tr class="funnel-builder-tr">
+        <th class="hidden" scope="row" data-th=" " id="number-of-template-groups">Number of template groups (= # of templates x 9)</th>
+        <td class="hidden" data-th="basic" headers="basic number-of-template-groups">5</td>
+        <td class="hidden" data-th="business" headers="business number-of-template-groups">15</td>
+        <td class="hidden" data-th="pro" headers="pro number-of-template-groups">99999</td>
+    </tr>
+
+    <tr class="funnel-builder-tr">
+        <th class="hidden" scope="row" data-th=" " id="split-testing">Split testing</th>
+        <td class="hidden" data-th="basic" headers="basic split-testing"><span class="icon-ex"></span><br></td>
+        <td class="hidden" data-th="business" headers="business split-testing"><span class="icon-check"></span><br></td>
+        <td class="hidden" data-th="pro" headers="pro split-testing"><span class="icon-check"></span><br></td>
+    </tr>
+
+    <tr class="funnel-builder-tr">
+        <th class="hidden" scope="row" data-th=" " id="mobile-optimizer">Mobile optimizer</th>
+        <td class="hidden" data-th="basic" headers="basic mobile-optimizer"><span class="icon-check"></span><br></td>
+        <td class="hidden" data-th="business" headers="business mobile-optimizer"><span class="icon-check"></span><br></td>
+        <td class="hidden" data-th="pro" headers="pro mobile-optimizer"><span class="icon-check"></span><br></td>
+    </tr>
+
+    <tr class="funnel-builder-tr">
+        <th class="hidden" scope="row" data-th=" " id="in-built-conversion-tools">In-built conversion tools</th>
+        <td class="hidden" data-th="basic" headers="basic in-built-conversion-tools"><span class="icon-check"></span><br></td>
+        <td class="hidden" data-th="business" headers="business in-built-conversion-tools"><span class="icon-check"></span><br></td>
+        <td class="hidden" data-th="pro" headers="pro in-built-conversion-tools"><span class="icon-check"></span><br></td>
+    </tr>
+
+    <tr class="funnel-builder-tr">
+        <th class="hidden" scope="row" data-th=" " id="html-download">HTML download</th>
+        <td class="hidden" data-th="basic" headers="basic html-download"><span class="icon-ex"></span><br></td>
+        <td class="hidden" data-th="business" headers="business html-download"><span class="icon-check"></span><br></td>
+        <td class="hidden" data-th="pro" headers="pro html-download"><span class="icon-check"></span><br></td>
+    </tr>
+
+    <tr class="funnel-builder-tr">
+        <th class="hidden" scope="row" data-th=" " id="save-as-template">Save as template</th>
+        <td class="hidden" data-th="basic" headers="basic save-as-template"><span class="icon-ex"></span><br></td>
+        <td class="hidden" data-th="business" headers="business save-as-template"><span class="icon-check"></span><br></td>
+        <td class="hidden" data-th="pro" headers="pro save-as-template"><span class="icon-check"></span><br></td>
+    </tr>
+
+    <tr class="funnel-builder-tr">
+        <th class="hidden" scope="row" data-th=" " id="clone-page">Clone page</th>
+        <td class="hidden" data-th="basic" headers="basic clone-page"><span class="icon-check"></span><br></td>
+        <td class="hidden" data-th="business" headers="business clone-pages"><span class="icon-check"></span><br></td>
+        <td class="hidden" data-th="pro" headers="pro clone-page"><span class="icon-check"></span><br></td>
+    </tr>
+
+    <tr class="funnel-builder-tr">
+        <th class="hidden" scope="row" data-th=" " id="unique-visitors">Unique visitors</th>
+        <td class="hidden" data-th="basic" headers="basic unique-visitors">25,000</td>
+        <td class="hidden" data-th="business" headers="business unique-visitors">100,000</td>
+        <td class="hidden" data-th="pro" headers="pro unique-visitors">Unlimited</td>
+    </tr>
+
+    <tr class="funnel-builder-tr">
+        <th class="hidden" scope="row" data-th=" " id="transfer-funnels">Transfer funnels</th>
+        <td class="hidden" data-th="basic" headers="basic transfer-funnels"><span class="icon-ex"></span><br></td>
+        <td class="hidden" data-th="business" headers="business transfer-funnels"><span class="icon-ex"></span><br></td>
+        <td class="hidden" data-th="pro" headers="pro transfer-funnels"><span class="icon-check"></span><br></td>
+    </tr>
+
+<!-- PRODUCT BUILDER TABLE-->
+
+<tr class="product-builder-header header" id="product-builder-header">
+    <th scope="row" id="product-builder" data-th=" ">
+        <span class="chevron-icon chevron-icon-product-builder" id="dropdown-icon-product-builder">
+            <svg xmlns="http://www.w3.org/2000/svg" width="10" height="10" fill="currentColor" class="bi bi-chevron-down" viewBox="0 0 16 16">
+                <path fill-rule="evenodd" d="M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708z"/>
+            </svg>
+        </span>
+
+        PRODUCT BUILDER
+
+        <span class="additional-info-icon" data-toggle="tooltip" title="Product Builder features">
+            <svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" fill="currentColor" class="bi bi-question-circle" viewBox="0 0 16 16">
+                <path d="M8 15A7 7 0 1 1 8 1a7 7 0 0 1 0 14zm0 1A8 8 0 1 0 8 0a8 8 0 0 0 0 16z"/>
+                <path d="M5.255 5.786a.237.237 0 0 0 .241.247h.825c.138 0 .248-.113.266-.25.09-.656.54-1.134 1.342-1.134.686 0 1.314.343 1.314 1.168 0 .635-.374.927-.965 1.371-.673.489-1.206 1.06-1.168 1.987l.003.217a.25.25 0 0 0 .25.246h.811a.25.25 0 0 0 .25-.25v-.105c0-.718.273-.927 1.01-1.486.609-.463 1.244-.977 1.244-2.056 0-1.511-1.276-2.241-2.673-2.241-1.267 0-2.655.59-2.75 2.286zm1.557 5.763c0 .533.425.927 1.01.927.609 0 1.028-.394 1.028-.927 0-.552-.42-.94-1.029-.94-.584 0-1.009.388-1.009.94z"/>
+            </svg>
+        </span>
+    </th>
+    <td data-th="basic" headers="basic product-builder">YES</td>
+    <td data-th="business" headers="business product-builder">YES</td>
+    <td data-th="pro" headers="pro product-builder">YES</td>
+</tr>  
+
+<tr class="product-builder-tr">
+    <th class="hidden" scope="row" data-th=" " id="number-of-products">Number of products</th>
+    <td class="hidden" data-th="basic" headers="basic number-of-products">10</td>
+    <td class="hidden" data-th="business" headers="business number-of-products">50</td>
+    <td class="hidden" data-th="pro" headers="pro number-of-products">250</td>
+</tr>
+
+<tr class="product-builder-tr">
+    <th class="hidden" scope="row" data-th=" " id="membership-module-products">Membership Module products</th>
+    <td class="hidden" data-th="basic" headers="basic membership-module-products"><span class="icon-check"></span><br></td>
+    <td class="hidden" data-th="business" headers="business membership-module-products"><span class="icon-check"></span><br></td>
+    <td class="hidden" data-th="pro" headers="pro membership-module-products"><span class="icon-check"></span><br></td>
+</tr>
+
+<tr class="product-builder-tr">
+    <th class="hidden" scope="row" data-th=" " id="digital-products">Digital products</th>
+    <td class="hidden" data-th="basic" headers="basic digital-products"><span class="icon-check"></span><br></td>
+    <td class="hidden" data-th="business" headers="business digital-products"><span class="icon-check"></span><br></td>
+    <td class="hidden" data-th="pro" headers="pro digital-products"><span class="icon-check"></span><br></td>
+</tr>
+
+<tr class="product-builder-tr">
+    <th class="hidden" scope="row" data-th=" " id="instasuite-checkout">Instasuite Checkout (Stripe & Paypal)</th>
+    <td class="hidden" data-th="basic" headers="basic instasuite-checkout"><span class="icon-check"></span><br></td>
+    <td class="hidden" data-th="business" headers="business instasuite-checkout"><span class="icon-check"></span><br></td>
+    <td class="hidden" data-th="pro" headers="pro instasuite-checkout"><span class="icon-check"></span><br></td>
+</tr>
+
+<tr class="product-builder-tr">
+    <th class="hidden" scope="row" data-th=" " id="multiple-price-points">Multiple Price Points</th>
+    <td class="hidden" data-th="basic" headers="basic multiple-price-points"><span class="icon-check"></span><br></td>
+    <td class="hidden" data-th="business" headers="business multiple-price-points"><span class="icon-check"></span><br></td>
+    <td class="hidden" data-th="pro" headers="pro multiple-price-points"><span class="icon-check"></span><br></td>
+</tr>
+
+<tr class="product-builder-tr">
+    <th class="hidden" scope="row" data-th=" " id="coupons-and-discounts">Coupons and discounts</th>
+    <td class="hidden" data-th="basic" headers="basic coupons-and-discounts"><span class="icon-ex"></span><br></td>
+    <td class="hidden" data-th="business" headers="business coupons-and-discounts"><span class="icon-check"></span><br></td>
+    <td class="hidden" data-th="pro" headers="pro coupons-and-discounts"><span class="icon-check"></span><br></td>
+</tr>
+
+<tr class="product-builder-tr">
+    <th class="hidden" scope="row" data-th=" " id="automation-actions">Automation actions</th>
+    <td class="hidden" data-th="basic" headers="basic automation-actions"><span class="icon-ex"></span><br></td>
+    <td class="hidden" data-th="business" headers="business automation-actions"><span class="icon-check"></span><br></td>
+    <td class="hidden" data-th="pro" headers="pro automation-actions"><span class="icon-check"></span><br></td>
+</tr>
+
+<tr class="product-builder-tr">
+    <th class="hidden" scope="row" data-th=" " id="digital-product-delivery-email">Digital product delivery - Email</th>
+    <td class="hidden" data-th="basic" headers="basic digital-product-delivery-email"><span class="icon-check"></span><br></td>
+    <td class="hidden" data-th="business" headers="business digital-product-delivery-email"><span class="icon-check"></span><br></td>
+    <td class="hidden" data-th="pro" headers="pro digital-product-delivery-email"><span class="icon-check"></span><br></td>
+</tr>
+
+<tr class="product-builder-tr">
+    <th class="hidden" scope="row" data-th=" " id="digital-product-delivery-redirect">Digital product delivery - Redirect URL</th>
+    <td class="hidden" data-th="basic" headers="basic digital-product-delivery-redirect"><span class="icon-check"></span><br></td>
+    <td class="hidden" data-th="business" headers="business digital-product-delivery-redirect"><span class="icon-check"></span><br></td>
+    <td class="hidden" data-th="pro" headers="pro digital-product-delivery-redirect"><span class="icon-check"></span><br></td>
+</tr>
+
+<tr class="product-builder-tr">
+    <th class="hidden" scope="row" data-th=" " id="digital-product-delivery-upload">Digital product delivery - Upload File</th>
+    <td class="hidden" data-th="basic" headers="basic digital-product-delivery-upload"><span class="icon-ex"></span><br></td>
+    <td class="hidden" data-th="business" headers="business digital-product-delivery-upload"><span class="icon-check"></span><br></td>
+    <td class="hidden" data-th="pro" headers="pro digital-product-delivery-upload"><span class="icon-check"></span><br></td>
+</tr>
+
+<tr class="product-builder-tr">
+    <th class="hidden" scope="row" data-th=" " id="digital-product-delivery-ispdn">Digital product delivery - ISPDN</th>
+    <td class="hidden" data-th="basic" headers="basic digital-product-delivery-ispdn"><span class="icon-ex"></span><br></td>
+    <td class="hidden" data-th="business" headers="business digital-product-delivery-ispdn"><span class="icon-check"></span><br></td>
+    <td class="hidden" data-th="pro" headers="pro digital-product-delivery-ispdn"><span class="icon-check"></span><br></td>
+</tr>
+
+<tr class="product-builder-tr">
+    <th class="hidden" scope="row" data-th=" " id="export-orders-to-csv">Export orders to csv</th>
+    <td class="hidden" data-th="basic" headers="basic export-orders-to-csv"><span class="icon-check"></span><br></td>
+    <td class="hidden" data-th="business" headers="business export-orders-to-csv"><span class="icon-check"></span><br></td>
+    <td class="hidden" data-th="pro" headers="pro export-orders-to-csv"><span class="icon-check"></span><br></td>
+</tr>
+
+
+<!-- MEMBERSHIP BUILDER TABLE-->
+
+<tr class="membership-builder-header header" id="membership-builder-header">
+    <th scope="row" id="membership-builder" data-th=" ">
+        <span class="chevron-icon chevron-icon-membership-builder" id="dropdown-icon-membership-builder">
+            <svg xmlns="http://www.w3.org/2000/svg" width="10" height="10" fill="currentColor" class="bi bi-chevron-down" viewBox="0 0 16 16">
+                <path fill-rule="evenodd" d="M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708z"/>
+            </svg>
+        </span>
+
+        MEMBERSHIP BUILDER
+
+        <span class="additional-info-icon" data-toggle="tooltip" title="Membership Builder features">
+            <svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" fill="currentColor" class="bi bi-question-circle" viewBox="0 0 16 16">
+                <path d="M8 15A7 7 0 1 1 8 1a7 7 0 0 1 0 14zm0 1A8 8 0 1 0 8 0a8 8 0 0 0 0 16z"/>
+                <path d="M5.255 5.786a.237.237 0 0 0 .241.247h.825c.138 0 .248-.113.266-.25.09-.656.54-1.134 1.342-1.134.686 0 1.314.343 1.314 1.168 0 .635-.374.927-.965 1.371-.673.489-1.206 1.06-1.168 1.987l.003.217a.25.25 0 0 0 .25.246h.811a.25.25 0 0 0 .25-.25v-.105c0-.718.273-.927 1.01-1.486.609-.463 1.244-.977 1.244-2.056 0-1.511-1.276-2.241-2.673-2.241-1.267 0-2.655.59-2.75 2.286zm1.557 5.763c0 .533.425.927 1.01.927.609 0 1.028-.394 1.028-.927 0-.552-.42-.94-1.029-.94-.584 0-1.009.388-1.009.94z"/>
+            </svg>
+        </span>
+    </th>
+    <td data-th="basic" headers="basic membership-builder">YES</td>
+    <td data-th="business" headers="business membership-builder">YES</td>
+    <td data-th="pro" headers="pro membership-builder">YES</td>
+</tr>
+
+<tr class="membership-builder-tr">
+    <th class="hidden" scope="row" data-th=" " id="number-of-themes">Number of themes</th>
+    <td class="hidden" data-th="basic" headers="basic number-of-themes">1</td>
+    <td class="hidden" data-th="business" headers="business number-of-themes">3</td>
+    <td class="hidden" data-th="pro" headers="pro number-of-themes">5</td>
+</tr>
+
+<tr class="membership-builder-tr">
+    <th class="hidden" scope="row" data-th=" " id="number-of-members">Number of members</th>
+    <td class="hidden" data-th="basic" headers="basic number-of-members">1,000</td>
+    <td class="hidden" data-th="business" headers="business number-of-members">5,000</td>
+    <td class="hidden" data-th="pro" headers="pro number-of-members">1,000</td>
+</tr>
+
+<tr class="membership-builder-tr">
+    <th class="hidden" scope="row" data-th=" " id="member-tags">Member tags</th>
+    <td class="hidden" data-th="basic" headers="basic member-tags"><span class="icon-ex"></span><br></td>
+    <td class="hidden" data-th="business" headers="business member-tags"><span class="icon-check"></span><br></td>
+    <td class="hidden" data-th="pro" headers="pro member-tags"><span class="icon-check"></span><br></td>
+</tr>
+
+<tr class="membership-builder-tr">
+    <th class="hidden" scope="row" data-th=" " id="drip-feed">Drip feed</th>
+    <td class="hidden" data-th="basic" headers="basic drip-feed"><span class="icon-ex"></span><br></td>
+    <td class="hidden" data-th="business" headers="business drip-feed"><span class="icon-check"></span><br></td>
+    <td class="hidden" data-th="pro" headers="pro drip-feed"><span class="icon-check"></span><br></td>
+</tr>
+
+<tr class="membership-builder-tr">
+    <th class="hidden" scope="row" data-th=" " id="member-progress-tracking">Member progress tracking</th>
+    <td class="hidden" data-th="basic" headers="basic member-progress-tracking"><span class="icon-check"></span><br></td>
+    <td class="hidden" data-th="business" headers="business member-progress-tracking"><span class="icon-check"></span><br></td>
+    <td class="hidden" data-th="pro" headers="pro member-progress-tracking"><span class="icon-check"></span><br></td>
+</tr>
+
+<tr class="membership-builder-tr">
+    <th class="hidden" scope="row" data-th=" " id="quiz-tracking">Quiz tracking</th>
+    <td class="hidden" data-th="basic" headers="basic quiz-tracking"><span class="icon-check"></span><br></td>
+    <td class="hidden" data-th="business" headers="business quiz-tracking"><span class="icon-check"></span><br></td>
+    <td class="hidden" data-th="pro" headers="pro quiz-tracking"><span class="icon-check"></span><br></td>
+</tr>
+
+<tr class="membership-builder-tr">
+    <th class="hidden" scope="row" data-th=" " id="design-editor">Design editor</th>
+    <td class="hidden" data-th="basic" headers="basic design-editor"><span class="icon-check"></span><br></td>
+    <td class="hidden" data-th="business" headers="business design-editor"><span class="icon-check"></span><br></td>
+    <td class="hidden" data-th="pro" headers="pro design-editor"><span class="icon-check"></span><br></td>
+</tr>
+
+
+
+<!-- LIST BUILDER TABLE-->
+
+<tr class="list-builder-header header" id="list-builder-header">
+    <th scope="row" id="list-builder" data-th=" ">
+        <span class="chevron-icon chevron-icon-list-builder" id="dropdown-icon-list-builder">
+            <svg xmlns="http://www.w3.org/2000/svg" width="10" height="10" fill="currentColor" class="bi bi-chevron-down" viewBox="0 0 16 16">
+                <path fill-rule="evenodd" d="M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708z"/>
+            </svg>
+        </span>
+
+        LIST BUILDER
+
+        <span class="additional-info-icon" data-toggle="tooltip" title="List Builder features">
+            <svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" fill="currentColor" class="bi bi-question-circle" viewBox="0 0 16 16">
+                <path d="M8 15A7 7 0 1 1 8 1a7 7 0 0 1 0 14zm0 1A8 8 0 1 0 8 0a8 8 0 0 0 0 16z"/>
+                <path d="M5.255 5.786a.237.237 0 0 0 .241.247h.825c.138 0 .248-.113.266-.25.09-.656.54-1.134 1.342-1.134.686 0 1.314.343 1.314 1.168 0 .635-.374.927-.965 1.371-.673.489-1.206 1.06-1.168 1.987l.003.217a.25.25 0 0 0 .25.246h.811a.25.25 0 0 0 .25-.25v-.105c0-.718.273-.927 1.01-1.486.609-.463 1.244-.977 1.244-2.056 0-1.511-1.276-2.241-2.673-2.241-1.267 0-2.655.59-2.75 2.286zm1.557 5.763c0 .533.425.927 1.01.927.609 0 1.028-.394 1.028-.927 0-.552-.42-.94-1.029-.94-.584 0-1.009.388-1.009.94z"/>
+            </svg>
+        </span>
+    </th>
+    <td data-th="basic" headers="basic list-builder">YES</td>
+    <td data-th="business" headers="business list-builder">YES</td>
+    <td data-th="pro" headers="pro list-builder">YES</td>
+</tr>  
+
+<tr class="list-builder-tr">
+    <th class="hidden" scope="row" data-th=" " id="smtp-setup">SMTP setup</th>
+    <td class="hidden" data-th="basic" headers="basic smtp-setup">own</td>
+    <td class="hidden" data-th="business" headers="business smtp-setup">own</td>
+    <td class="hidden" data-th="pro" headers="pro smtp-setup">own</td>
+</tr>
+
+<tr class="list-builder-tr">
+    <th class="hidden" scope="row" data-th=" " id="blacklist-domain">Blacklist domain, email, IP</th>
+    <td class="hidden" data-th="basic" headers="basic blacklist-domain"><span class="icon-check"></span><br></td>
+    <td class="hidden" data-th="business" headers="business blacklist-domain"><span class="icon-check"></span><br></td>
+    <td class="hidden" data-th="pro" headers="pro blacklist-domain"><span class="icon-check"></span><br></td>
+</tr>
+
+<tr class="list-builder-tr">
+    <th class="hidden" scope="row" data-th=" " id="block-role">Block role-based email</th>
+    <td class="hidden" data-th="basic" headers="basic block-role"><span class="icon-check"></span><br></td>
+    <td class="hidden" data-th="business" headers="business block-role"><span class="icon-check"></span><br></td>
+    <td class="hidden" data-th="pro" headers="pro block-role"><span class="icon-check"></span><br></td>
+</tr>
+
+<tr class="list-builder-tr">
+    <th class="hidden" scope="row" data-th=" " id="number-of-lists">Number of lists</th>
+    <td class="hidden" data-th="basic" headers="basic number-of-lists">10</td>
+    <td class="hidden" data-th="business" headers="business number-of-lists">100</td>
+    <td class="hidden" data-th="pro" headers="pro number-of-lists">Unlimited</td>
+</tr>
+
+<tr class="list-builder-tr">
+    <th class="hidden" scope="row" data-th=" " id="number-of-subscribers">Number of subscribers</th>
+    <td class="hidden" data-th="basic" headers="basic number-of-subscribers">1000</td>
+    <td class="hidden" data-th="business" headers="business number-of-subscribers">5000</td>
+    <td class="hidden" data-th="pro" headers="pro number-of-subscribers">100,000</td>
+</tr>
+
+<tr class="list-builder-tr">
+    <th class="hidden" scope="row" data-th=" " id="manual-bulk-import">Manual/Bulk Import</th>
+    <td class="hidden" data-th="basic" headers="basic manual-bulk-import"><span class="icon-check"></span><br></td>
+    <td class="hidden" data-th="business" headers="business manual-bulk-import"><span class="icon-check"></span><br></td>
+    <td class="hidden" data-th="pro" headers="pro manual-bulk-import"><span class="icon-check"></span><br></td>
+</tr>
+
+<tr class="list-builder-tr">
+    <th class="hidden" scope="row" data-th=" " id="list-segmentation">List segmentation</th>
+    <td class="hidden" data-th="basic" headers="basic list-segmentation"><span class="icon-ex"></span><br></td>
+    <td class="hidden" data-th="business" headers="business list-segmentation"><span class="icon-check"></span><br></td>
+    <td class="hidden" data-th="pro" headers="pro list-segmentation"><span class="icon-check"></span><br></td>
+</tr>
+
+<tr class="list-builder-tr">
+    <th class="hidden" scope="row" data-th=" " id="automations">Automations</th>
+    <td class="hidden" data-th="basic" headers="basic automations"><span class="icon-ex"></span><br></td>
+    <td class="hidden" data-th="business" headers="business automations"><span class="icon-check"></span><br></td>
+    <td class="hidden" data-th="pro" headers="pro automations"><span class="icon-check"></span><br></td>
+</tr>
+
+<tr class="list-builder-tr">
+    <th class="hidden" scope="row" data-th=" " id="optin-forms">Optin forms</th>
+    <td class="hidden" data-th="basic" headers="basic optin-forms"><span class="icon-check"></span><br></td>
+    <td class="hidden" data-th="business" headers="business optin-forms"><span class="icon-check"></span><br></td>
+    <td class="hidden" data-th="pro" headers="pro optin-forms"><span class="icon-check"></span><br></td>
+</tr>
+
+<tr class="list-builder-tr">
+    <th class="hidden" scope="row" data-th=" " id="broadcasts">Broadcasts</th>
+    <td class="hidden" data-th="basic" headers="basic broadcasts"><span class="icon-check"></span><br></td>
+    <td class="hidden" data-th="business" headers="business broadcasts"><span class="icon-check"></span><br></td>
+    <td class="hidden" data-th="pro" headers="pro broadcasts"><span class="icon-check"></span><br></td>
+</tr>
+
+<tr class="list-builder-tr">
+    <th class="hidden" scope="row" data-th=" " id="sequences">Sequences</th>
+    <td class="hidden" data-th="basic" headers="basic sequences"><span class="icon-check"></span><br></td>
+    <td class="hidden" data-th="business" headers="business sequences"><span class="icon-check"></span><br></td>
+    <td class="hidden" data-th="pro" headers="pro sequences"><span class="icon-check"></span><br></td>
+</tr>
+
+<tr class="list-builder-tr">
+    <th class="hidden" scope="row" data-th=" " id="save-email-templates">Save email templates</th>
+    <td class="hidden" data-th="basic" headers="basic save-email-templates"><span class="icon-check"></span><br></td>
+    <td class="hidden" data-th="business" headers="business save-email-templates"><span class="icon-check"></span><br></td>
+    <td class="hidden" data-th="pro" headers="pro save-email-templates"><span class="icon-check"></span><br></td>
+</tr>
+
+
+<!-- BLOG BUILDER TABLE-->
+
+<tr class="blog-builder-header header" id="blog-builder-header">
+    <th scope="row" id="blog-builder" data-th=" ">
+        <span class="chevron-icon chevron-icon-blog-builder" id="dropdown-icon-blog-builder">
+            <svg xmlns="http://www.w3.org/2000/svg" width="10" height="10" fill="currentColor" class="bi bi-chevron-down" viewBox="0 0 16 16">
+                <path fill-rule="evenodd" d="M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708z"/>
+            </svg>
+        </span>
+
+        BLOG BUILDER
+
+        <span class="additional-info-icon" data-toggle="tooltip" title="Blog Builder features">
+            <svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" fill="currentColor" class="bi bi-question-circle" viewBox="0 0 16 16">
+                <path d="M8 15A7 7 0 1 1 8 1a7 7 0 0 1 0 14zm0 1A8 8 0 1 0 8 0a8 8 0 0 0 0 16z"/>
+                <path d="M5.255 5.786a.237.237 0 0 0 .241.247h.825c.138 0 .248-.113.266-.25.09-.656.54-1.134 1.342-1.134.686 0 1.314.343 1.314 1.168 0 .635-.374.927-.965 1.371-.673.489-1.206 1.06-1.168 1.987l.003.217a.25.25 0 0 0 .25.246h.811a.25.25 0 0 0 .25-.25v-.105c0-.718.273-.927 1.01-1.486.609-.463 1.244-.977 1.244-2.056 0-1.511-1.276-2.241-2.673-2.241-1.267 0-2.655.59-2.75 2.286zm1.557 5.763c0 .533.425.927 1.01.927.609 0 1.028-.394 1.028-.927 0-.552-.42-.94-1.029-.94-.584 0-1.009.388-1.009.94z"/>
+            </svg>
+        </span>
+    </th>
+    <td data-th="basic" headers="basic blog-builder">YES</td>
+    <td data-th="business" headers="business blog-builder">YES</td>
+    <td data-th="pro" headers="pro blog-builder">YES</td>
+</tr>  
+
+<tr class="blog-builder-tr">
+    <th class="hidden" scope="row" data-th=" " id="widgets">Widgets</th>
+    <td class="hidden" data-th="basic" headers="basic widgets"><span class="icon-check"></span><br></td>
+    <td class="hidden" data-th="business" headers="business widgets"><span class="icon-check"></span><br></td>
+    <td class="hidden" data-th="pro" headers="pro widgets"><span class="icon-check"></span><br></td>
+</tr>
+
+<tr class="blog-builder-tr">
+    <th class="hidden" scope="row" data-th=" " id="menu">Menu</th>
+    <td class="hidden" data-th="basic" headers="basic menu"><span class="icon-check"></span><br></td>
+    <td class="hidden" data-th="business" headers="business menu"><span class="icon-check"></span><br></td>
+    <td class="hidden" data-th="pro" headers="pro menu"><span class="icon-check"></span><br></td>
+</tr>
+
+<tr class="blog-builder-tr">
+    <th class="hidden" scope="row" data-th=" " id="theme-customization">Theme customization</th>
+    <td class="hidden" data-th="basic" headers="basic theme-customization"><span class="icon-check"></span><br></td>
+    <td class="hidden" data-th="business" headers="business theme-customization"><span class="icon-check"></span><br></td>
+    <td class="hidden" data-th="pro" headers="pro theme-customization"><span class="icon-check"></span><br></td>
+</tr>
+
+<tr class="blog-builder-tr">
+    <th class="hidden" scope="row" data-th=" " id="number-of-themes">Number of themes</th>
+    <td class="hidden" data-th="basic" headers="basic number-of-themes">1</td>
+    <td class="hidden" data-th="business" headers="business number-of-themes">3</td>
+    <td class="hidden" data-th="pro" headers="pro number-of-themes">3</td>
+</tr>
+
+<tr class="blog-builder-tr">
+    <th class="hidden" scope="row" data-th=" " id="number-of-posts">Number of posts</th>
+    <td class="hidden" data-th="basic" headers="basic number-of-posts">Unlimited</td>
+    <td class="hidden" data-th="business" headers="business number-of-posts">Unlimited</td>
+    <td class="hidden" data-th="pro" headers="pro number-of-posts">Unlimited</td>
+</tr>
+
+<tr class="blog-builder-tr">
+    <th class="hidden" scope="row" data-th=" " id="post-categories">Post categories</th>
+    <td class="hidden" data-th="basic" headers="basic post-categories"><span class="icon-check"></span><br></td>
+    <td class="hidden" data-th="business" headers="business post-categories"><span class="icon-check"></span><br></td>
+    <td class="hidden" data-th="pro" headers="pro post-categories"><span class="icon-check"></span><br></td>
+</tr>
+
+<!-- AFFILIATE CENTER TABLE-->
+
+<tr class="affiliate-center-header header" id="affiliate-center-header">
+    <th scope="row" id="affiliate-center" data-th=" ">
+        <span class="chevron-icon chevron-icon-affiliate-center" id="dropdown-icon-affiliate-center">
+            <svg xmlns="http://www.w3.org/2000/svg" width="10" height="10" fill="currentColor" class="bi bi-chevron-down" viewBox="0 0 16 16">
+                <path fill-rule="evenodd" d="M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708z"/>
+            </svg>
+        </span>
+
+        AFFILIATE CENTER
+
+        <span class="additional-info-icon" data-toggle="tooltip" title="Affiliate Center features">
+            <svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" fill="currentColor" class="bi bi-question-circle" viewBox="0 0 16 16">
+                <path d="M8 15A7 7 0 1 1 8 1a7 7 0 0 1 0 14zm0 1A8 8 0 1 0 8 0a8 8 0 0 0 0 16z"/>
+                <path d="M5.255 5.786a.237.237 0 0 0 .241.247h.825c.138 0 .248-.113.266-.25.09-.656.54-1.134 1.342-1.134.686 0 1.314.343 1.314 1.168 0 .635-.374.927-.965 1.371-.673.489-1.206 1.06-1.168 1.987l.003.217a.25.25 0 0 0 .25.246h.811a.25.25 0 0 0 .25-.25v-.105c0-.718.273-.927 1.01-1.486.609-.463 1.244-.977 1.244-2.056 0-1.511-1.276-2.241-2.673-2.241-1.267 0-2.655.59-2.75 2.286zm1.557 5.763c0 .533.425.927 1.01.927.609 0 1.028-.394 1.028-.927 0-.552-.42-.94-1.029-.94-.584 0-1.009.388-1.009.94z"/>
+            </svg>
+        </span>
+    </th>
+    <td data-th="basic" headers="basic affiliate-center">NO</td>
+    <td data-th="business" headers="affiliate-center">YES</td>
+    <td data-th="pro" headers="pro affiliate-center">YES</td>
+</tr> 
+
+<tr class="affiliate-center-tr">
+    <th class="hidden" scope="row" data-th=" " id="In-built-smtp">In-built SMTP</th>
+    <td class="hidden" data-th="basic" headers="basic In-built-smtp"></td>
+    <td class="hidden" data-th="business" headers="business In-built-smtp"><span class="icon-check"></span><br></td>
+    <td class="hidden" data-th="pro" headers="pro In-built-smtp"><span class="icon-check"></span><br></td>
+</tr>
+
+<tr class="affiliate-center-tr">
+    <th class="hidden" scope="row" data-th=" " id="promotion-tools">Promotion Tools</th>
+    <td class="hidden" data-th="basic" headers="basic promotion-tools"></td>
+    <td class="hidden" data-th="business" headers="business promotion-tools"><span class="icon-check"></span><br></td>
+    <td class="hidden" data-th="pro" headers="pro promotion-tools"><span class="icon-check"></span><br></td>
+</tr>
+
+<tr class="affiliate-center-tr">
+    <th class="hidden" scope="row" data-th=" " id="manage-commissions">Manage Commissions</th>
+    <td class="hidden" data-th="basic" headers="basic manage-commissions"></td>
+    <td class="hidden" data-th="business" headers="business manage-commissions"><span class="icon-check"></span><br></td>
+    <td class="hidden" data-th="pro" headers="pro manage-commissions"><span class="icon-check"></span><br></td>
+</tr>
+
+<tr class="affiliate-center-tr">
+    <th class="hidden" scope="row" data-th=" " id="number-of-affiliates">Number of affiliates</th>
+    <td class="hidden" data-th="basic" headers="basic number-of-affiliates"></td>
+    <td class="hidden" data-th="business" headers="business number-of-affiliates">1,000</td>
+    <td class="hidden" data-th="pro" headers="pro number-of-affiliates">5,000</td>
+</tr>
+
+<tr class="affiliate-center-tr">
+    <th class="hidden" scope="row" data-th=" " id="number-of-themes">Number of themes</th>
+    <td class="hidden" data-th="basic" headers="basic number-of-themes"></td>
+    <td class="hidden" data-th="business" headers="business number-of-themes">1</td>
+    <td class="hidden" data-th="pro" headers="pro number-of-themes">1</td>
+</tr>
+
+<tr class="affiliate-center-tr">
+    <th class="hidden" scope="row" data-th=" " id="theme-customization">Theme customization</th>
+    <td class="hidden" data-th="basic" headers="basic theme-customization"></td>
+    <td class="hidden" data-th="business" headers="business theme-customization"><span class="icon-check"></span><br></td>
+    <td class="hidden" data-th="pro" headers="pro theme-customization"><span class="icon-check"></span><br></td>
+</tr>
+
+<!-- SUPPORT DESK TABLE-->
+
+<tr class="support-desk-header header" id="support-desk-header">
+    <th scope="row" id="support-desk" data-th=" ">
+        <span class="chevron-icon chevron-icon-support-desk" id="dropdown-icon-support-desk">
+            <svg xmlns="http://www.w3.org/2000/svg" width="10" height="10" fill="currentColor" class="bi bi-chevron-down" viewBox="0 0 16 16">
+                <path fill-rule="evenodd" d="M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708z"/>
+            </svg>
+        </span>
+
+        SUPPORT DESK
+
+        <span class="additional-info-icon" data-toggle="tooltip" title="Support Desk features">
+            <svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" fill="currentColor" class="bi bi-question-circle" viewBox="0 0 16 16">
+                <path d="M8 15A7 7 0 1 1 8 1a7 7 0 0 1 0 14zm0 1A8 8 0 1 0 8 0a8 8 0 0 0 0 16z"/>
+                <path d="M5.255 5.786a.237.237 0 0 0 .241.247h.825c.138 0 .248-.113.266-.25.09-.656.54-1.134 1.342-1.134.686 0 1.314.343 1.314 1.168 0 .635-.374.927-.965 1.371-.673.489-1.206 1.06-1.168 1.987l.003.217a.25.25 0 0 0 .25.246h.811a.25.25 0 0 0 .25-.25v-.105c0-.718.273-.927 1.01-1.486.609-.463 1.244-.977 1.244-2.056 0-1.511-1.276-2.241-2.673-2.241-1.267 0-2.655.59-2.75 2.286zm1.557 5.763c0 .533.425.927 1.01.927.609 0 1.028-.394 1.028-.927 0-.552-.42-.94-1.029-.94-.584 0-1.009.388-1.009.94z"/>
+            </svg>
+        </span>
+    </th>
+    <td data-th="basic" headers="basic support-desk">YES</td>
+    <td data-th="business" headers="business support-desk">YES</td>
+    <td data-th="pro" headers="pro support-desk">YES</td>
+</tr>  
+
+<tr class="support-desk-tr">
+    <th class="hidden" scope="row" data-th=" " id="number-of-staff">Number of staff</th>
+    <td class="hidden" data-th="basic" headers="basic number-of-staff"></td>
+    <td class="hidden" data-th="business" headers="business number-of-staff">3</td>
+    <td class="hidden" data-th="pro" headers="pro number-of-staff">10</td>
+</tr>
+
+<tr class="support-desk-tr">
+    <th class="hidden" scope="row" data-th=" " id="in-built-smtp">In-built SMTP</th>
+    <td class="hidden" data-th="basic" headers="basic in-built-smtp"></td>
+    <td class="hidden" data-th="business" headers="business in-built-smtp"><span class="icon-check"></span><br></td>
+    <td class="hidden" data-th="pro" headers="pro in-built-smtp"><span class="icon-check"></span><br></td>
+</tr>
+
+<tr class="support-desk-tr">
+    <th class="hidden" scope="row" data-th=" " id="number-of-canned-responses">Number of canned responses</th>
+    <td class="hidden" data-th="basic" headers="basic number-of-canned-responses"></td>
+    <td class="hidden" data-th="business" headers="business number-of-canned-responses">20</td>
+    <td class="hidden" data-th="pro" headers="pro number-of-canned-responses">100</td>
+</tr>
+
+<tr class="support-desk-tr">
+    <th class="hidden" scope="row" data-th=" " id="knowledgebase">Knowledgebase</th>
+    <td class="hidden" data-th="basic" headers="basic knowledgebase"></td>
+    <td class="hidden" data-th="business" headers="business knowledgebase"><span class="icon-check"></span><br></td>
+    <td class="hidden" data-th="pro" headers="pro knowledgebase"><span class="icon-check"></span><br></td>
+</tr>
+
+<tr class="support-desk-tr">
+    <th class="hidden" scope="row" data-th=" " id="number-of-themes">Number of themes</th>
+    <td class="hidden" data-th="basic" headers="basic number-of-themes"></td>
+    <td class="hidden" data-th="business" headers="business number-of-themes">1</td>
+    <td class="hidden" data-th="pro" headers="pro number-of-themes">1</td>
+</tr>
+
+</tbody>
+
+<tfoot>
+    <tr class="footer-tr">
+        <th><br></th>
+        <th class="btn-th"> <button type="button" class="btn btn-basic">Buy Basic</button> </th>
+        <th class="btn-th"> <button type="button" class="btn btn-business">Buy Business</button> </th>
+        <th class="btn-th"> <button type="button" class="btn btn-pro">Buy Pro</button> </th>
+    </tr>
+</tfoot>
+
+</table>
+<!-- Pricing Table End-->
+
+
+</div>
+
+
+</body>
+</html>

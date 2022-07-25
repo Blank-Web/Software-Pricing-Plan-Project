@@ -1,0 +1,17 @@
+var dropdownGeneral = document.getElementById("general-header");
+const hide = document.getElementsByClassName("general-tr");
+
+
+
+
+function hideFeatures(){ 
+const chevron = document.getElementsByClassName("chevron-icon");
+chevron.style.transform = "rotate(0deg)";
+
+alert(`${chevron}`);
+
+};
+
+
+
+dropdownGeneral.addEventListener("click" , hideFeatures);
